@@ -26,5 +26,5 @@ class Shoe
     BRANDS << @brand 
   end 
  end 
-BRANDS.size
+
 end
