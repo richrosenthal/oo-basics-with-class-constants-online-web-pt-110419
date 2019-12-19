@@ -6,6 +6,7 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
+     BRANDS << @brand 
   end
 
   def cobble
@@ -13,18 +14,18 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
-  def brand(brand)
-    flag = true 
-    @brand = brand 
-    BRANDS.each do |unique| 
-      if unique == brand 
-        flag = false 
-      end 
-    end 
+  # def brand(brand)
+  #   flag = true 
+  #   @brand = brand 
+  #   BRANDS.each do |unique| 
+  #     if unique == brand 
+  #       flag = false 
+  #     end 
+  #   end 
     
-    if flag == true 
-    BRANDS << @brand 
-  end 
+  #   if flag == true 
+  #   BRANDS << @brand 
+  # end 
  end 
 
 end
