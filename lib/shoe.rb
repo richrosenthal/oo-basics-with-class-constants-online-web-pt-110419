@@ -26,6 +26,6 @@ class Shoe
   #   if flag == true 
   #   BRANDS << @brand 
   # end 
- end 
+  # end 
 
 end
